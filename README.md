@@ -14,7 +14,7 @@
 ---
 
 ## Demo 🎉
-coming soon...
+(https://lalitkondekar.github.io/weather_on_map/)
 
 ---
 
