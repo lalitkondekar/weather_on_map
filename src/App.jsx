@@ -32,7 +32,6 @@ export default function App() {
 
           // Fetch and set weather data for the current location
           const data = await getWeatherData(latitude, longitude);
-          console.log("data in app:",JSON.stringify(data,null,2))
           setWeather(data);
         },
         (error) => {
@@ -55,7 +54,6 @@ export default function App() {
     });
     return null;
   };
-  {console.log("weather in app"+weather)}
   return (
     <div className="flex h-screen">
       {/* Sidebar with fixed width */}

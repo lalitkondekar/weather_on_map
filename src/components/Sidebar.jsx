@@ -18,9 +18,9 @@ export default function Sidebar({ weather }) {
         color: '#ffffff',
       }}
     >
-      <div className='flex-grow'>
-        <h1 className="text-center text-2xl font-bold bg-black bg-opacity-50 p-2 rounded-lg backdrop-blur-sm">Weather on Maps</h1>
-        {console.log(weather? "weather"+weather :"empty weather")}
+      <div className='flex-grow overflow-y-auto'>
+        <h1 className="text-center text-2xl font-bold bg-black bg-opacity-50 p-2 rounded-xl backdrop-blur-sm">Weather on Maps</h1>
+
         {weather ? (
           
           <div>
@@ -33,8 +33,8 @@ export default function Sidebar({ weather }) {
           <p className="text-center mt-4">Click on a location for weather details</p>
         )}
       </div>
-      <div className='bg-black bg-opacity-50 p-2 rounded-lg backdrop-blur-sm'>
-        <p className='text-center'>Created by: lalitkondekar</p>
+      <div className='bg-black bg-opacity-50 p-2 rounded-xl backdrop-blur-sm mt-2'>
+        <p className='text-center'><a href='https://github.com/lalitkondekar/weather_on_map/blob/main/README.md' target='_blank'>Created by: lalitkondekar</a></p>
       </div>
       
     </div>
